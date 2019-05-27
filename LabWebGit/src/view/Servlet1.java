@@ -22,6 +22,8 @@ public class Servlet1 extends HttpServlet {
 		long time = System.currentTimeMillis();
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
+		out.println("<h1>Hsiang-Yu, Kuo version 1</h1>");
+		out.println("<h1>郭翔宇 版本1</h1>");
 		out.println("<h3>Servlet1:" + time + "</h3>");
 		out.println("<h2>Servlet2:" + time + "</h2>");
 		out.close();
