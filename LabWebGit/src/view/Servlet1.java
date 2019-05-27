@@ -23,6 +23,7 @@ public class Servlet1 extends HttpServlet {
 			throws ServletException, IOException {
 		this.doGet(request, response);
 		System.out.println("trytrysee");
+		System.out.println("123218787");
 		//practice 3   
 	}
 }
