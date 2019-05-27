@@ -8,11 +8,21 @@
 <title>Home</title>
 </head>
 <body>
+<<<<<<< HEAD
   
    
 <h3>Home</h3>
 
 <h3><a href="<c:url value="/servlet1.view" />">Servlet1</a></h3>
+=======
+
+<h3>Home</h3>
+<<<<<<< HEAD
+
+=======
+
+
+>>>>>>> branch 'master' of https://github.com/EEIT107Team003/repository.git
 
 
 </body>
