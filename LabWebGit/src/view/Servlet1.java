@@ -8,7 +8,22 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-<<<<<<< HEAD
+
+public class Servlet1 extends HttpServlet {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		
+		long time = System.currentTimeMillis();
+		response.setContentType("text/html; charset=UTF-8");
+		PrintWriter out = response.getWriter();
+		out.println("<h3>Servlet1:"+time+"</h3>");
+		out.close();
+	}
+  //江慶庭
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		this.doGet(request, response);
+
 
 public class Servlet1 extends HttpServlet {
 
@@ -43,6 +58,6 @@ public class Servlet1 extends HttpServlet {
 
 		System.out.println("Shuan");
 
->>>>>>> branch 'master' of https://github.com/EEIT107Team003/repository.git
+
 	}
 }
