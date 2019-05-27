@@ -10,11 +10,14 @@
 <body>
 
 <h3>Home</h3>
+<<<<<<< HEAD
 <h2>45678954465</h2>
 <h2>45678954465</h2>
 <h2>4567895446EWEW5</h2>
 <h2>45678954465</h2>
-<h3><a href="<c:url value="/servlet1.view" />">Servlet1</a></h3>
+=======
+
+
 
 
 </body>
